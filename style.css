@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#profile img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.profile-picture {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.gallery-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.gallery-item .description {
+    padding: 10px;
+}
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
